@@ -1,9 +1,6 @@
-* {
-  background-color: greenyellowgit;
-}
-
 li {
   display: inline;
+  font-weight: 600;
 }
 
 li #right {
@@ -11,17 +8,153 @@ li #right {
 }
 
 .container {
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-bottom: 120px;
 }
 
-@media only screen and (max-width: 600px) {
-  nav {
-    font-size: 50px bold;
-    font-family: Aeonik;
-    font-weight: 500;
-    color: black;
-    padding-top: 260px;
-    padding-left: 20px;
-  }
+.hero {
+  margin-top: 150px;
+}
+
+.hero-heading {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.001em;
+  text-transform: lowercase;
+  color: black;
+}
+
+.hero-text {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+
+  text-transform: lowercase;
+}
+
+nav {
+  height: 100px;
+  font-family: "Aeonik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: "Aeonik";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 28px;
+  height: 40;
+  width: 500;
+  border-radius: 15px;
+}
+
+.india {
+  position: absolute;
+  left: 60%;
+}
+
+.hero-image {
+  position: absolute;
+  left: 68%;
+  top: 37%;
+}
+
+#two {
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  padding-top: 60px;
+  color: white;
+  font-family: "Aeonik";
+  font-size: 60px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  background-image: linear-gradient(
+    132.6deg,
+    rgba(71, 139, 214, 1) 23.3%,
+    rgba(37, 216, 211, 1) 84.7%
+  );
+  height: 100%;
+  background-repeat: inherit;
+}
+.guest {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.guest-intro {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: "Aeonik";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.guests {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.circle {
+  border-radius: 25%;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+.footer-left {
+  padding: 30px;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: "Aeonik";
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.footer-right {
+  margin-right: 3%;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Aeonik";
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.footer-right > div {
+  flex-direction: column;
+  justify-content: flex-end;
 }
